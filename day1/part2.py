@@ -1,7 +1,8 @@
 """
 Solution Complexity: O(n^2)
 
-Solution Explanation: Iterate through list, compute pairwise sums and store as keys in a dictionary.
+Solution Explanation: Iterate through list, compute pairwise sums and store as keys in a dictionary. Again as we can eleminate inputs
+greater than 2020 we have no problem with hash collisions.
 
 """
 

@@ -2,7 +2,7 @@
 Solution Complexity: O(n)
 
 Solution Explanation: Iterate though list, storing results as keys of a  dictionary to allow constant time determination for 
-successive list elements.
+successive list elements. As we can eliminate inputs greater than 2020 we have no problem with hash duplicity for theoretical large inputs.
 """
 
 
